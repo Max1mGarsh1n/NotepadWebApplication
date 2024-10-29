@@ -1,0 +1,6 @@
+@NotepadWebApp.Service_HostAddress = http://localhost:5103
+
+GET {{NotepadWebApp.Service_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
