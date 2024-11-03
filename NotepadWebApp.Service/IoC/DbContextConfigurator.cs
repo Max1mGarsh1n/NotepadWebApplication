@@ -10,7 +10,7 @@ public class DbContextConfigurator
         var configuration = new ConfigurationBuilder()
             .AddJsonFile("appsettings.json", false)
             .Build();
-        var connectionString = configuration.GetValue<string>("AirTicketContext");
+        var connectionString = configuration.GetValue<string>("NotepadDbContext");
         builder.Services.AddDbContextFactory<NotepadDbContext>(
             options => { options.UseNpgsql(connectionString); },
             ServiceLifetime.Scoped);
