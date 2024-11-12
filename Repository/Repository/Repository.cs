@@ -1,14 +1,16 @@
 ﻿using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
+using NotepadWebApp.DataAccess;
 using NotepadWebApp.DataAccess.Entities;
+using Repository.Repository;
 
-namespace NotepadWebApp.DataAccess.Repository;
+namespace NotepadWebApp.Repository.Repository;
 
 public class Repository<T> : IRepository<T> where T : BaseEntity
 {
-    private readonly IDbContextFactory<DbContext> _contextFactory;
+    private readonly IDbContextFactory<NotepadDbContext> _contextFactory;
 
-    public Repository(IDbContextFactory<DbContext> contextFactory)
+    public Repository(IDbContextFactory<NotepadDbContext> contextFactory)
     {
         _contextFactory = contextFactory;
     }

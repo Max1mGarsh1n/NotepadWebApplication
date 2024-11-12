@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotepadWebApp.Service", "No
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotepadWebApp.DataAccess", "NotepadWebApp.DataAccess\NotepadWebApp.DataAccess.csproj", "{FA277AE7-7983-4226-AB1A-018EED9B5001}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotepadWebApp.BL", "NotepadWebApp.BL\NotepadWebApp.BL.csproj", "{A5E55A9A-B352-47CC-9627-440FE3050D51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{80A2EFA1-76D1-45F2-8715-405B92686FA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{FA277AE7-7983-4226-AB1A-018EED9B5001}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA277AE7-7983-4226-AB1A-018EED9B5001}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA277AE7-7983-4226-AB1A-018EED9B5001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5E55A9A-B352-47CC-9627-440FE3050D51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5E55A9A-B352-47CC-9627-440FE3050D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5E55A9A-B352-47CC-9627-440FE3050D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5E55A9A-B352-47CC-9627-440FE3050D51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80A2EFA1-76D1-45F2-8715-405B92686FA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A2EFA1-76D1-45F2-8715-405B92686FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A2EFA1-76D1-45F2-8715-405B92686FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A2EFA1-76D1-45F2-8715-405B92686FA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,7 +1,7 @@
 ﻿using System.Linq.Expressions;
 using NotepadWebApp.DataAccess.Entities;
 
-namespace NotepadWebApp.DataAccess.Repository;
+namespace Repository.Repository;
 
 public interface IRepository<T> where T : BaseEntity
 {

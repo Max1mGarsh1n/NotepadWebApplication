@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using NotepadWebApp.DataAccess;
-
+    
 namespace NotepadWebApplication.IoC;
 
 public class DbContextConfigurator
